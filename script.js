@@ -16,5 +16,8 @@ function nextCitation() {
     citation.textContent = listCitation[citationRandom];
 }
 
+// 5 secondes citation
+setInterval(nextCitation, 5000);
+
 // Appel initial à la fonction
 nextCitation();
